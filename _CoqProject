@@ -1,0 +1,13 @@
+-R . Top
+
+EasySubst/Sequence.v
+EasySubst/Subst.v
+EasySubst/TSubstGeneral.v
+SyntaX.v
+Rules.v
+Substitution.v
+Safety.v
+Kleene.v
+Compactness.v
+
+-arg "-w -notation-overridden,-parsing"
