@@ -1,6 +1,8 @@
 *.vo
+*.vok
+*.vos
 *.glob
 .*.aux
 *.cache
 *.pdf
-.Makefile.d
+.CoqMakefile.d

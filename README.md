@@ -5,6 +5,8 @@ The files in the ``EasySubst`` folder represent a substitution framework similar
 
 This code provides a good starting point for utilizing the logical relation approach to formalize properties about languages.
 
+The project can be compiled using ``make -f CoqMakefile``.
+
 ## Overview of Files
 
 ### EasySubst/Sequence.v
