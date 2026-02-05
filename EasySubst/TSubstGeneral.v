@@ -1,5 +1,5 @@
 Require Import Subst.
-Require Import Lia.
+From Stdlib Require Import Lia.
 Require Import Sequence.
 
 Class HasClassifier (term : Type) := classifier : Type.

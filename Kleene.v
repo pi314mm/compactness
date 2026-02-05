@@ -1,7 +1,7 @@
 Require Import SyntaX.
 Require Import Rules.
 Require Import Substitution.
-Require Import Lia.
+From Stdlib Require Import Lia.
 Require Import Sequence.
 
 Inductive starn : nat -> term -> term -> Prop :=

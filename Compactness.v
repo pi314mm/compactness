@@ -2,8 +2,8 @@ Require Import SyntaX.
 Require Import Rules.
 Require Import Substitution.
 Require Import Kleene.
-Require Import List.
-Require Import Lia.
+From Stdlib Require Import List.
+From Stdlib Require Import Lia.
 Require Import Safety.
 
 (* Definitions for pattern language *)

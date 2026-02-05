@@ -1,6 +1,6 @@
 
-Require Export List.
-Require Import Lia.
+From Stdlib Require Export List.
+From Stdlib Require Import Lia.
 
 
 (* General list facts *)

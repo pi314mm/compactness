@@ -1,5 +1,5 @@
-Require Import Arith.
-Require Import Lia.
+From Stdlib Require Import Arith.
+From Stdlib Require Import Lia.
 
 Ltac prove_traverse_parametric ind :=
 intros S S' R enter enter' resolve resolve' s s' t Henter Hresolve Hs;

@@ -1,7 +1,7 @@
 Require Import Rules.
 Require Import SyntaX.
 Require Import Substitution.
-Require Import List.
+From Stdlib Require Import List.
 
 Theorem preservation {E e e' tau} :
      oft nil e tau

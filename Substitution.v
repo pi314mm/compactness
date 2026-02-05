@@ -2,7 +2,7 @@ Require Import Sequence.
 Require Export TSubstGeneral.
 Require Import Rules.
 Require Export SyntaX.
-Require Import Lia.
+From Stdlib Require Import Lia.
 
 (* This file uses the substitution framework to prove the substitution theorem for the particular language *)
 (* This can be for the most part ignored, but it results in the subst_oft theorem and similar lemmas *)
