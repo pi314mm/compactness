@@ -26,7 +26,7 @@ This is also defined abstractly so it can be applied to any language.
 Definition of the language syntax and the E[e] operation for evaluation contexts. Applies the ``Subst.v`` file substitution definitions to this language.
 
 ### Rules.v
-The structural operational semantics for the language, along with some lemmas about determinicity and the compositionality of running under evaluation contexts.
+The operational semantics for the language, along with some lemmas about determinicity and the compositionality of running under evaluation contexts.
 
 ### Substitution.v
 Builds the substitution theorem for this language by utilizing the methodology given in ``TSubstGeneral.v``. Adds several items to the hint database for substitution, which resolves most things for this language via the simp_sub tactic.
@@ -40,4 +40,4 @@ Definition of termination and mutual termination (Kleene equivalence). Proves a 
 ### Compactness.v
 Defines a pattern language for verifying the compactness lemma. Defines some helper lemmas associated with ``of`` judgment, dealing with substitution and evaluation contexts.
 
-Then proves generalized compactness via the Pattern Stepping Bisimulation approach, and the standard definition of compactness falls out from this generalized compactness lemma.
+Then proves generalized compactness via the Pattern Stepping approach, and the standard definition of compactness falls out from this generalized compactness lemma.
